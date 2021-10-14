@@ -26,4 +26,11 @@ class PagesController < ApplicationController
     end
   end
 
+  def addition
+    number1 = params[:number1].to_i
+    number2 = params[:number2].to_i
+    answer = number1 + number2
+    render json: {message: "Your answer is #{answer}"}
+  end
+
 end

@@ -7,4 +7,7 @@ Rails.application.routes.draw do
 
   get "/guess_number" => "pages#guess_number"
 
+  get "/sum_numbers/:number1/:number2" => "pages#addition"
+
+  get "/guess_number/:number" => "pages#guess_number"
 end

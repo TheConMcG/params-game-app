@@ -5,3 +5,9 @@ GET http://localhost:3000/first_letter.json?name=Connor
 
 ###
 GET http://localhost:3000/guess_number.json?number=37
+
+###
+GET http://localhost:3000/sum_numbers/5/10.json
+
+###
+GET http://localhost:3000/guess_number/37.json
